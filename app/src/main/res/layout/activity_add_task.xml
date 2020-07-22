@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.AddTask">
+
+
+    <EditText
+        android:id="@+id/edtTaskName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter task"
+        android:textSize="30sp"
+        android:layout_margin="25dp"
+        />
+
+    <Button
+        android:id="@+id/btnRegisterTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register task"
+        android:layout_margin="20dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorPrimary"
+        />
+
+</LinearLayout>
